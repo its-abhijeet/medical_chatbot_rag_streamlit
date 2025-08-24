@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+langchain-groq = "*"
+sentence-transformers = "*"
+streamlit = "*"
+langchain = "*"
+langchain-community = "*"
+langchain-huggingface = "*"
+faiss-cpu = "*"
+pypdf = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
